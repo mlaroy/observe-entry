@@ -1,6 +1,13 @@
 # observe-entry
 A tiny library to observe elements entering the viewport using Intersection Observer. When the selected elements enter the viewport, a class is applied to the element for styling.
 
+## Installation
+
+```console
+$ npm install @mlaroy/observe-entry;
+```
+
+
 ## API
 
 
