@@ -1,6 +1,6 @@
 {
   "name": "@mlaroy/observe-entry",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tiny library to observe elements entering the viewport using Intersection Observer.",
   "main": "index.js",
   "scripts": {
