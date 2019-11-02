@@ -21,10 +21,10 @@ Rather than passing a string, you can pass a config object, using the options av
 
 Optionally, choose the class you want applied to the element when it is visible, 
 
-Default Options:
-* root: null,
-* rootMargin: '0px',
-* threshold: 1.0,
+#### Default Options:
+* `root: null`
+* `rootMargin: '0px'`
+* `threshold: 1.0`
 
 
 ```js
