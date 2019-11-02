@@ -3,6 +3,8 @@ A tiny library to observe elements entering the viewport using Intersection Obse
 
 ## API
 
+
+```js
 import observeEntry from 'path/to/file';
 
 // call the function directly
@@ -11,6 +13,7 @@ observeEntry( '.my-element' );
 // assing to variable to get the object
 const observer = observeEntry( '.my-element' );
 console.log( observer );
+```
 
 ## Config
 
@@ -18,6 +21,8 @@ Rather than passing a string, you can pass a config object, using the options av
 
 Optionally, choose the class you want applied to the element when it is visible, 
 
+
+```js
 const options = {
   root: null,
   rootMargin: '0px',
@@ -27,3 +32,4 @@ const options = {
 }
 
 observeEntry( options );
+```
