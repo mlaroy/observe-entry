@@ -5,7 +5,7 @@ A tiny library to observe elements entering the viewport using Intersection Obse
 
 
 ```js
-import observeEntry from 'path/to/file';
+import observeEntry from '@mlaroy/observe-entry';
 
 // call the function directly
 observeEntry( '.my-element' );
@@ -19,7 +19,7 @@ console.log( observer );
 
 Rather than passing a string, you can pass a config object, using the options available in the Intersection Observer API: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Creating_an_intersection_observer
 
-Optionally, choose the class you want applied to the element when it is visible, 
+Optionally, choose the class you want applied to the element when it is visible,
 
 #### Default Options:
 * `root: null`
