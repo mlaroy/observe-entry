@@ -9,7 +9,7 @@ const observeEntry = config => {
 
     let options;
 
-    if ( typeof config == 'string') {
+    if ( typeof config == 'string' ) {
         defaults.selector = config;
         options = { ...defaults };
     } else {
