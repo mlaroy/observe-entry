@@ -1,4 +1,4 @@
-# observeEntry
+# observe-entry
 A tiny library to observe elements entering the viewport using Intersection Observer. When the selected elements enter the viewport, a class is applied to the element for styling.
 
 ## API
@@ -10,7 +10,7 @@ import observeEntry from 'path/to/file';
 // call the function directly
 observeEntry( '.my-element' );
 
-// assing to variable to get the object
+// assign to variable to get the object
 const observer = observeEntry( '.my-element' );
 console.log( observer );
 ```
