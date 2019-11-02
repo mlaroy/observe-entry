@@ -25,12 +25,14 @@ Optionally, choose the class you want applied to the element when it is visible,
 * `root: null`
 * `rootMargin: '0px'`
 * `threshold: 1.0`
+* `intersectingClass: 'is-intersected'`
 
 
 ```js
 const options = {
-  intersectingClass: 'is-intersected',
-  selector: '.my-element'
+  intersectingClass: 'visible-class',
+  selector: '.my-element',
+  threshold: [ 0.25, 0.5, 0.75, 1.0 ]
 }
 
 observeEntry( options );
