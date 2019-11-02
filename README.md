@@ -1,5 +1,5 @@
 # observeEntry
-A tiny library to observe elements entering the viewport using Intersection Observer.
+A tiny library to observe elements entering the viewport using Intersection Observer. When the selected elements enter the viewport, a class is applied to the element for styling.
 
 ## API
 
@@ -21,15 +21,30 @@ Rather than passing a string, you can pass a config object, using the options av
 
 Optionally, choose the class you want applied to the element when it is visible, 
 
+Default Options:
+* root: null,
+* rootMargin: '0px',
+* threshold: 1.0,
+
 
 ```js
 const options = {
-  root: null,
-  rootMargin: '0px',
-  threshold: 1.0,
   intersectingClass: 'is-intersected',
   selector: '.my-element'
 }
 
 observeEntry( options );
+```
+
+## Example CSS
+
+```css
+.my-element {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.my-element.is-intersected {
+    opacity: 1;
+}
 ```
