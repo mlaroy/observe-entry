@@ -13,6 +13,9 @@ const observeEntry = config => {
         defaults.selector = config;
         options = { ...defaults };
     } else {
+        if( !config.selector ) {
+            throw '"Selector" key is required in options object.';
+        }
         options = { ...defaults, ...config };
     }
 
