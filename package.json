@@ -1,0 +1,23 @@
+{
+  "name": "observe-entry",
+  "version": "1.0.0",
+  "description": "A tiny library to observe elements entering the viewport using Intersection Observer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlaroy/observe-entry.git"
+  },
+  "keywords": [
+    "intersection",
+    "observer"
+  ],
+  "author": "Michael LaRoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlaroy/observe-entry/issues"
+  },
+  "homepage": "https://github.com/mlaroy/observe-entry#readme"
+}
