@@ -4,7 +4,7 @@ A tiny library to observe elements entering the viewport using Intersection Obse
 ## Installation
 
 ```console
-$ npm install @mlaroy/observe-entry;
+$ npm install @mlaroy/observe-entry
 ```
 
 
