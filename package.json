@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mlaroy/observe-entry/issues"
   },
-  "homepage": "https://github.com/mlaroy/observe-entry#readme"
+  "homepage": "https://github.com/mlaroy/observe-entry#readme",
+  "dependencies": {
+    "np": "^5.1.2"
+  }
 }
