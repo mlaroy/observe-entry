@@ -9,10 +9,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@mlaroy/observe-entry": "^1.0.5"
-  },
   "devDependencies": {
+    "@mlaroy/observe-entry": "^1.0.5",
     "parcel": "^1.12.4"
   }
 }
