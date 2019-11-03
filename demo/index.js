@@ -1,4 +1,4 @@
-import observeEntry from '@mlaroy/observe-entry';
+import observeEntry from '../dist/index.js';
 
 (function() {
     const selector = '.observer';
