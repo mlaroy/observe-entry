@@ -31,6 +31,7 @@ const observeEntry = config => {
 
     const observer = new IntersectionObserver( callback, options );
 
+    // since nodelist.forEach doesn't work everywhere yet...
     [].forEach.call(els, el => observer.observe( el ));
 
     return observer;
