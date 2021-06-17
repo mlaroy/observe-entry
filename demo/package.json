@@ -2,10 +2,9 @@
   "name": "observe-entry-sample",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "serve": "parcel index.html",
-    "build": "parcel build ./src/index.js"
+    "build": "parcel build ./src/index.html "
   },
   "author": "",
   "license": "ISC",
