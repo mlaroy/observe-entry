@@ -1,6 +1,6 @@
 {
   "name": "@mlaroy/observe-entry",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A tiny library to observe elements entering the viewport using Intersection Observer.",
   "main": "dist/index.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/mlaroy/observe-entry#readme",
   "devDependencies": {
     "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }
