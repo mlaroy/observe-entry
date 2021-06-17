@@ -23,5 +23,8 @@
   "homepage": "https://github.com/mlaroy/observe-entry#readme",
   "devDependencies": {
     "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }

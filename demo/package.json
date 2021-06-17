@@ -11,5 +11,8 @@
   "dependencies": {
     "@mlaroy/observe-entry": "^1.0.9",
     "parcel": "*"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }
