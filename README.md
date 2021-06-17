@@ -3,7 +3,7 @@ A tiny library to observe elements entering the viewport using Intersection Obse
 
 
 ## Demo
-[Observe Entry Demo](https://observe-entry.netlify.app)
+See it in action: [Observe Entry Demo](https://observe-entry.netlify.app)
 
 ## Installation
 
