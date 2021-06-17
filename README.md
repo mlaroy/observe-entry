@@ -1,6 +1,10 @@
 # observe-entry
 A tiny library to observe elements entering the viewport using Intersection Observer. When the selected elements enter the viewport, a class is applied to the element for styling.
 
+
+## Demo
+[Observe Entry Demo](https://observe-entry.netlify.app)
+
 ## Installation
 
 ```console
