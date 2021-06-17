@@ -1,6 +1,6 @@
 {
   "name": "observe-entry-sample",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mlaroy/observe-entry": "^1.0.8",
+    "@mlaroy/observe-entry": "^1.0.9",
     "parcel": "*"
   }
 }
