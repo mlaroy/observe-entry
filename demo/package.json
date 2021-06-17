@@ -1,15 +1,16 @@
 {
-  "name": "observe-entry-demo",
+  "name": "observe-entry-sample",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html"
+    "serve": "parcel index.html",
+    "build": "parcel build ./src/index.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "parcel": "^1.12.4"
+  "dependencies": {
+    "@mlaroy/observe-entry": "^1.0.8",
+    "parcel": "*"
   }
 }

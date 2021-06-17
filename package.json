@@ -1,12 +1,11 @@
 {
   "name": "@mlaroy/observe-entry",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A tiny library to observe elements entering the viewport using Intersection Observer.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"No test specified\"",
-    "dev": "parcel src/index.js",
-    "build": "parcel build src/index.js"
+    "dev": "parcel ./src/index.js",
+    "build": "parcel build ./src/index.js"
   },
   "repository": {
     "type": "git",
